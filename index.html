@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarb's 
+        Pig Game</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+</head>
+<body>
+    <div id="root">
+        <div id="players-detail">
+            Please enter Player 1 name:
+            <input type="text" id="player1"> <br>
+            
+            Please enter Player 2 name:
+            <input type="text" id="player2"> <br>
+
+            Please enter Max Score:
+            <input type="number" name="" id="maxScore"> <br>
+
+            <button id="startBtn">Start</button>
+        </div>
+        <div id="player1-details">
+            <h1 id="player1Name">Player 1: </h1>
+            <h2 id="player1Total">Total:  </h2>
+            <button id="player1PlayBtn">Play</button>
+            <button id="player1HoldBtn">Hold</button>
+        </div>
+        <div id="player2-details">
+            <h1 id="player2Name">Player 2: </h1>
+            <h2 id="player2Total">Total:  </h2>
+            <button id="player2PlayBtn">Play</button>
+            <button id="player2HoldBtn">Hold</button>
+        </div>
+        <div id="message-div">
+            <h1 id="message"></h1>
+            <h2 id="message2"></h2>
+            <button id="reset-gameBtn">Reset Game</button>
+        </div>
+    </div>
+    <script rel="text/javascript" src="js/pig.js"></script>
+</body>
+</html>

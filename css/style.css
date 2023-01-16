@@ -1,0 +1,92 @@
+#root{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+    "playersDetail playersDetail playersDetail"
+    "pl1Box centerBox pl2Box";
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+#players-detail{
+    grid-area: playersDetail;
+    background-color: lightgreen;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#player1-details{
+    grid-area: pl1Box;
+    background-color: grey;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#player2-details{
+    grid-area: pl2Box;
+    background-color: grey;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#message-div{
+    grid-area: centerBox;
+    background-color: rgb(179, 228, 205);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#reset-gameBtn{
+    display: none;
+}
+
+.active-area{
+    background-color: lightblue;
+}
+.non-active-area {
+    background-color: grey;
+}
+
+/* 
+#root {
+    background-color: lightblue;
+    display: flex;
+    min-height: 500px;
+    border-radius: 20px;
+}
+#players-detail{
+    background-color: lightgreen;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+#player1-details{
+    background-color: grey;
+    min-width: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+#player2-details{
+    background-color: rgb(131, 122, 211);
+    min-width: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+}
+#message-div{
+    background-color: rgb(57, 153, 108);
+    min-width: 200px;
+    min-height: 200px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+} */
